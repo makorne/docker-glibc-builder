@@ -15,7 +15,7 @@ dependencies:
     - git fetch --tags
     - go get github.com/tcnksm/ghr
   override:
-    - docker pull makorne/glibc-builder
+    - docker pull makorne/docker-glibc-builder
 test:
   pre:
     - mkdir -p artifacts
